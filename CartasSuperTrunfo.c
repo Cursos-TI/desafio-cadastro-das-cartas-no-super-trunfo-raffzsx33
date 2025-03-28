@@ -1,22 +1,88 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+
+    printf ("Desafio Super Trunfo!\n");
+
+
+    printf ("CARTA 1\n");
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    char Cidade[20];
+    int População;
+    float Área;
+    float PIB;
+    int NPturísticos; // Número de pontos turísticos
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf ("Digite o nome da sua cidade: \n");
+    scanf ("%s", &Cidade);
+
+    printf ("Digite o número da População: \n");
+    scanf ("%d", &População);
+
+    printf ("Digite o número da Área: \n");
+    scanf ("%f", &Área);
+
+    printf ("Digite o número do PIB: \n");
+    scanf ("%f", &PIB);
+
+    
+    printf ("Digite o número de pontos turísticos da sua cidade: \n");
+    scanf ("%d", &NPturísticos);
+
+
+    printf ("CARTA 1\n");
+
+
+    printf ("Nome da Cidade: %s\n",Cidade);
+    printf ("População:  %d\n", População);
+    printf ("Área:  %f\n", Área);
+    printf ("PIB:  %f\n", PIB);
+    printf ("Número de pontos turísticos:  %d\n", NPturísticos);
+
+
+    //SEGUNDA CARTA
+
+    printf ("CARTA 2\n");
+    
+    printf ("Digite o nome da sua cidade: \n");
+    scanf ("%s", &Cidade);
+
+    printf ("Digite o número da População: \n");
+    scanf ("%d", &População);
+
+    printf ("Digite o número da Área: \n");
+    scanf ("%f", &Área);
+
+    printf ("Digite o número do PIB: \n");
+    scanf ("%f", &PIB);
+
+    
+    printf ("Digite o número de pontos turísticos da sua cidade: \n");
+    scanf ("%d", &NPturísticos);
+
+
+    printf ("CARTA 2\n");
+
+
+    printf ("Nome da Cidade: %s\n",Cidade);
+    printf ("População:  %d\n", População);
+    printf ("Área:  %f\n", Área);
+    printf ("PIB:  %f\n", PIB);
+    printf ("Número de pontos turísticos:  %d\n", NPturísticos);
+
 
     return 0;
+
+    /*
+    
+    %d: Imprime um inteiro no formato decimal.
+    %i: Equivalente a %d.
+    %f: Imprime um numero de ponto flutuante no formato padrão.
+    %e: Imprime um número de ponto flutuante na notação científica.
+    %c: Imprime um único caractere.
+    %s: Imprime uama cadeia (string) de caracteres.
+
+    */
+
 }
